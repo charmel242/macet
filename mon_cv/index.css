@@ -1,0 +1,40 @@
+body{
+    font-family: Arial,  sans-serif;
+    margin: 40px;
+    background-color: burlywood;
+}
+.cv-container{
+    background-color: white;
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 20px;
+}
+.header img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.header h1{
+    margin: 0;
+    font-size: 28px;
+    color: #2c3e50;
+}
+.section{
+    margin-bottom: 20px;
+}
+.section-title{
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px ;
+    margin-bottom: 10px;
+}
+ul{
+    padding-left: 20px;
+}
